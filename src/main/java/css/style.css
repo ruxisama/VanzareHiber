@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: green;
+}
+.label {
+    -fx-text-fill: green;
+}
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: green;
+    -fx-text-fill: white;
+}
+.text-field:hover, .text-field:focused {
+    -fx-border-color: yellow;
+}
+#saveBtn, #clearBtn
+{-fx-background-color: transparent;
+ -fx-border-color: green;
+ -fx-text-fill: white;
+}
+#saveBtn:hover {
+    -fx-border-color: yellow;
+}
+
+#clearBtn:hover {
+    -fx-border-color: yellow;
+}
+#saveBtn:pressed, #clearBtn:pressed {
+    -fx-border-color: green;
+    -fx-background-color: transparent;
+}
